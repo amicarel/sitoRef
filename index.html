@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>ssiReferenti</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Cache-control" content="No-Cache" />
+    <meta name="description" content="Description">
+    <meta name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- <link rel="stylesheet" href="./asset/css/theme-simple.css"> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+    <!-- <link rel="stylesheet" href="./asset/css/vue.css"> -->
+    <!--  "//unpkg.com/docsify/lib/themes/vue.css"-->
+  </head>
+
+  <body>
+    <div id="app">Please wait...</div>
+    <script>
+      window.$docsify = {
+        name: 'ssiReferenti',
+        repo: '',
+        loadNavbar: true,
+        loadSidebar: true,
+        subMaxLevel: 3,
+        auto2top: true,
+        coverpage: true,
+        onlyCover: true,
+        basePath: '/',
+        search: {
+          maxAge: 86400000, // Expiration time, the default one day
+          search:'auto',
+          paths: ["/soft/lotus2/"],
+          /*paths: ["/soft/client-server/ACSOR/", "/soft/appWeb/Agenda-Cultura/", "/soft/lotus/Agende-Web/",
+            "/soft/lotus/Anagrafe-PM/", "/soft/client-server/Servizi-On-Line-Prenotazione-Orti/",
+            "/soft/lotus/Archivio-PM-DB-circolari-e-disposizioni-interne/",
+            "/soft/lotus/Gestione-licenze-taxi-e-NCC/", "/soft/lotus/Autorizzazioni-Mobilità/",
+            "/soft/client-server/BC4-Bilancio-delle-aziende-partecipate/", "/soft/appWeb/Intranet-IONOI/",
+            "/soft/client-server/CONGINT/", "/soft/stand-alone/Carta-giovani/",
+            "/soft/client-server/Catalogo-storico-Frati-Sorbelli/", "/soft/client-server/UTOPIA/",
+            "/soft/lotus/Comunicati-stampa/", "/soft/client-server/Cruscotto-Area-IRPEF/",
+            "/soft/client-server/Cruscotto-Multe/", "/soft/client-server/Cruscotto-Tributi/", "/soft/lotus/Delibere/",
+            "/soft/lotus/Determinazioni-Dirigenziali/", "/soft/client-server/Elezioni-On-Line/",
+            "/soft/client-server/Fittoni-mobili/", "/soft/stand-alone/Flash-giovani/", "/soft/client-server/Garsia/",
+            "/soft/client-server/Gestione-Incidenti/", "/soft/client-server/GESTIONE-MUTUI/",
+            "/soft/lotus/Gestione-delle-Gare-e-dei-Contratti/", "/soft/client-server/Gestione-integrata-sinistri/",
+            "/soft/client-server/Gestione-interventi-Lavori-pubblici/", "/soft/lotus/GETTONI-DI-PRESENZA/",
+            "/soft/client-server/GuardaMulte/", "/soft/lotus/Interpellanze-e-Domande-d'attualità/",
+            "/soft/lotus/Libere-Forme-Associative/", "/soft/client-server/Multe-PMGU/",
+            "/soft/client-server/Nettuno/", "/soft/client-server/Tributi-Web/",
+            "/soft/lotus/Occupazioni-di-Suolo-Pubblico/", "/soft/lotus/Ordinanze-Mobilità/",
+            "/soft/lotus/Pareri-dei-Quartieri/", "/soft/lotus/Pareri-mobilità/",
+            "/soft/stand-alone/Passi-carrai-e-manufatti/", "/soft/lotus/PRESENZE-IN-CONSIGLIO-COMUNALE/",
+            "/soft/lotus/PROCEDURA-di-estrazione-dati--pratiche-edilizie/", "/soft/lotus/ProcEdi-2/",
+            "/soft/lotus/Scrivania-del-Professionista/",
+            "/soft/client-server/GRADUS-Sistema-informativo-servizi-abitativi/",
+            "/soft/client-server/Procedura-2-gestione-dichiarazione-ISEE-e-prestazioni-agevolate/",
+            "/soft/client-server/SISM2-Sistema-informativo-servizi-scolastici/",
+            "/soft/client-server/Console-di-Gestione-Documentale/", "/soft/client-server/Protocollo-Generale-2/",
+            "/soft/client-server/Sistema-Protocollo-Elettronico-eProtocollo/",
+            "/soft/client-server/Vari-applicativi-verticali/", "/soft/appWeb/Punto-di-Ascolto-CzRM/",
+            "/soft/client-server/Intranet-Aziendale-Rassegna-Stampa/",
+            "/soft/client-server/Dispenser-per-la-distribuzione-delle-chiavi-dei-mezzi-di-servizio/",
+            "/soft/client-server/Portale-Intranet-Aziendale/", "/soft/client-server/Sale-e-Piazze/",
+            "/soft/client-server/Servizi-On-Line-Prenotazione-Sale/", "/soft/client-server/Rubrica-Telefonica/",
+            "/soft/client-server/SAP-BW-DATAWAREHOUSE/", "/soft/client-server/SAP-Cassa-Economale/",
+            "/soft/client-server/SAP-Gestione-Bilancio/", "/soft/client-server/SAP-Gestione-Contabilità-Analitica/",
+            "/soft/client-server/SAP-Gestione-Della-Spesa/", "/soft/client-server/SAP-Gestione-Entrate/",
+            "/soft/client-server/SAP-Gestione-IVA/", "/soft/client-server/SAP-Gestione-Immobiliare/",
+            "/soft/client-server/SAP-Gestione-Inventario/", "/soft/client-server/SAP-Gestione-Mandato-Pagamenti/",
+            "/soft/client-server/SAP-Gestione-Utenze/", "/soft/client-server/SAP-Gestione-fiscale/",
+            "/soft/client-server/SAP-Oggetti-Rinvenuti/", "/soft/client-server/SAP-Piano-attività/",
+            "/soft/appWeb/SARA/", "/soft/client-server/SIPA-Procedimenti-amministrativi/",
+            "/soft/client-server/Sirio-Rita/", "/soft/client-server/Sistema-Entrate-Extratributarie-SIR/",
+            "/soft/client-server/Sistema-Informativo-Scolarità/",
+            "/soft/client-server/Sistema-Informativo-Servizi-Sportivi/",
+            "/soft/client-server/SISM2-2-Sistema-informativo-servizi-scolastici/",
+            "/soft/lotus/Verbali-Di-Commissioni-Consigliare/", "/soft/lotus/VERBALI-DI-CONSIGLIO/",
+            "/soft/lotus/Verbali-di-polizia-giudiziaria/"
+          ],*/
+          placeholder: 'Type to search',
+          noData: 'No Results!',
+          // Headline depth, 1 - 6
+          depth: 1,
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+          // To avoid search index collision
+          // between multiple websites under the same domain
+          //namespace: 'website-1',
+        },
+        alias: {
+           '/soft/lotus/_sidebar.md': '/_sidebar.md'
+        }
+      }
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <!-- <script src="https://unpkg.com/docsifyfooter@1"></script> -->
+    <script src="./asset/js/docsifyfooter.min.js"></script>
+  </body>
+  <!--   -->
+
+</html>
