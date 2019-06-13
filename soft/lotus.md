@@ -2,7 +2,7 @@
 
 Lotus è tuttora l'ambiente software nel quale molti applicativi sono eseguiti
 
-## installazione
+## [installazione](/soft/lotus/installazione)
 
 Lotus è installato con il master, ma va configurato dai referenti [link](/soft/lotus/ ':target=_blank')
 
