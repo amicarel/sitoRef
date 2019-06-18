@@ -1,6 +1,6 @@
-# Gestione delle Gare e dei Contratti
+## **Gestione delle Gare e dei Contratti**
 
-## Gov.it
+### Gov.it
 
 [Gov.it- lista app](http://basidati.agid.gov.it/catalogo/amm?code=c_a944)
 
@@ -14,24 +14,24 @@
 6. **soggetto:** Atti amministrativi
 7. **codice_bd:** 12533
 
-## In Comune
+### In Comune
 
-### Installazione
+#### Installazione
 
 chi installa
 
 procedura
 
-### Gesione utenti
+#### Gesione utenti
 
 chi se ne occupa
 
-### Persone particolarmente esperte
+#### Persone particolarmente esperte
 
 ### Settori che utilizzano il software
 
-## FAQ
+### FAQ
 
-### Domanda1
+#### Domanda1
 
 risposta

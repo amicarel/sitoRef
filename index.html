@@ -13,6 +13,18 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
     <!-- <link rel="stylesheet" href="./asset/css/vue.css"> -->
     <!--  "//unpkg.com/docsify/lib/themes/vue.css"-->
+    <style>
+      :root {
+        /* Reduce the font size */
+         --base-font-size: 14px; 
+    
+        /* Change the theme color hue */
+        /* --theme-hue: 325; */
+    
+        /* Change the sidebar bullets */
+        /* --sidebar-nav-link-before-content: '😀'; */
+      }
+    </style>
   </head>
 
   <body>
@@ -28,11 +40,15 @@
         coverpage: true,
         onlyCover: true,
         basePath: '/',
+        themeable: {
+          readyTransition: true, // default
+          responsiveTables: true  // default
+        },
         search: {
           maxAge: 86400000, // Expiration time, the default one day
-          search:'auto',
-          paths: ["/soft/lotus2/"],
-          /*paths: ["/soft/client-server/ACSOR/", "/soft/appWeb/Agenda-Cultura/", "/soft/lotus/Agende-Web/",
+          search: 'auto',
+          // paths: ["/soft/lotus2/"]
+          paths: ["/soft/client-server/ACSOR/", "/soft/appWeb/Agenda-Cultura/", "/soft/lotus/Agende-Web/",
             "/soft/lotus/Anagrafe-PM/", "/soft/client-server/Servizi-On-Line-Prenotazione-Orti/",
             "/soft/lotus/Archivio-PM-DB-circolari-e-disposizioni-interne/",
             "/soft/lotus/Gestione-licenze-taxi-e-NCC/", "/soft/lotus/Autorizzazioni-Mobilità/",
@@ -78,7 +94,7 @@
             "/soft/client-server/SISM2-2-Sistema-informativo-servizi-scolastici/",
             "/soft/lotus/Verbali-Di-Commissioni-Consigliare/", "/soft/lotus/VERBALI-DI-CONSIGLIO/",
             "/soft/lotus/Verbali-di-polizia-giudiziaria/"
-          ],*/
+          ],
           placeholder: 'Type to search',
           noData: 'No Results!',
           // Headline depth, 1 - 6
@@ -89,10 +105,12 @@
           //namespace: 'website-1',
         },
         alias: {
-           '/soft/lotus/_sidebar.md': '/_sidebar.md'
+          '/soft/lotus/_sidebar.md': '/_sidebar.md'
         }
       }
     </script>
+    <!-- docsify-themeable (latest v0.x.x) -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <!-- <script src="https://unpkg.com/docsifyfooter@1"></script> -->

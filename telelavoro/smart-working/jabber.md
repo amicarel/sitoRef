@@ -17,27 +17,28 @@ e inserire la password. Se non va verificare l’abilitazione con Ufficio Reti (
 
     ![fig.04](/img/jabber-04.png)
 
-## Accettare le richieste a video
-
-1. a
-
+4. Accettare le richieste a video
     ![fig.05](/img/jabber-05.png)
 
     ![fig.06](/img/jabber-06.png)
 
-2. Al riavvio del programma andare nelle impostazioni per attivare l’avvio automatico e configurare il calendario
+5. Al riavvio del programma andare nelle impostazioni per attivare l’avvio automatico e configurare il calendario
 
-    ![fig.07](/img/jabber-07.png)
+    ![fig.07](/img/jabber-10.png)
 
     ![fig.08](/img/jabber-08.png)
 
     ![fig.09](/img/jabber-09.png)
 
-Per abilitare l’inoltro sul cellulare, cliccare sull’icona a forma di telefono e selezionare.
-INOLTRA CHIAMATE A NUOVO NUMERO
-Digitare il numero di telefono preceduto da “0”
+## calendario e inoltro chiamate
 
-![fig.10](/img/jabber-10.png)
+Per abilitare l’inoltro sul cellulare:
+
+- cliccare sull’icona a forma di telefono e selezionare.
+- INOLTRA CHIAMATE A NUOVO NUMERO
+- Digitare il numero di telefono preceduto da “0”
+  
+![fig.11-a](/img/jabber-10B.png)
 
 ![fig.11](/img/jabber-11.png)
 
