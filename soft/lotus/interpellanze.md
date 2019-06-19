@@ -30,8 +30,4 @@ chi se ne occupa
 
 ### Settori che utilizzano il software
 
-## FAQ
-
-### Domanda1
-
-risposta
+[fileX](interpellanzeFAQ.md ':include')
