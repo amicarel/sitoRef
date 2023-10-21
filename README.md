@@ -1,4 +1,4 @@
-# elaborato web per la documentazione dei referenti informatici del Comune di Bologna
+# elaborato web per la documentazione dei referenti informatici del Comune di
 
 ## metodo
 - l'elaborato è stato sviluppato con docsify......
